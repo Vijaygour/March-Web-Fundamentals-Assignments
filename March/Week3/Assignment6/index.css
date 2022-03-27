@@ -1,0 +1,25 @@
+form{
+    background-color: wheat;
+    width: 50%;
+    margin-left: 25%;
+    padding: 10px;
+    text-align: center;
+    border:1px solid black;
+    
+    padding-left: 10px;
+}
+
+label,input{
+    padding-right: 10px;
+}
+form input,label{
+    padding: 5px;;
+}
+
+#name{
+    padding-top: 5px;
+}
+#h1{
+
+    text-align: center;
+}

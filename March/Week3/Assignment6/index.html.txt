@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1 id="h1"> Address Form</h1>
+    <form>
+        <label for="name" >Name:</label>
+        <input type="text"  id="name" placeholder="Enter your name">
+        
+        <label for="phonenumber">Phone Number:</label>
+        <input type="text" id="phonenumber" pattern="[7-9]{1}[0-9]{9}" tabindex="Valid Phone nmber" required>
+       <!--<small>Format: start with (7 or 8 or 9) and 10 digit</small> -->
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email"  id="email" placeholder="xyz@gmail.com">
+        <label for="state">   State:</label>
+        <input type="text"  id="state" >
+        <br><br>
+        <label for="dist." >Dist.:</label>
+        <input type="text"  id="dist.">
+        
+        <label for="Paddress">Permanent Address:</label>
+        <input type="text" id="Paddress" >
+        <br><br>
+
+
+        <input type="submit">
+
+    </form>
+</body>
+</html>

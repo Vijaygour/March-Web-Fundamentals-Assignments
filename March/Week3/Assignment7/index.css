@@ -1,0 +1,21 @@
+form{
+    background-color: aquamarine;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    border:1px solid black;
+    
+    padding-left: 10px;
+}
+
+form input,label{
+    padding: 5px;;
+}
+
+#name{
+    padding-top: 5px;
+}
+#h1{
+
+    text-align: center;
+}
